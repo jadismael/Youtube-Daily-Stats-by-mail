@@ -206,7 +206,7 @@ function EmailReport() {
     var row = data[i];
   
     
-  var emailrange= sheet.getRange("A1");
+  var emailrange= sheet.getRange("H3");
       var emailAddress = emailrange.getValue();  // First column
     
       
