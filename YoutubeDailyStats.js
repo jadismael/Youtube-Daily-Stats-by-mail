@@ -117,7 +117,7 @@ function fetchAllData() {
   
     var emailrange= curSheet.getRange("H3");
   var emaildata=emailrange.getValue();
-  if(emaildata[0][0]='') emailrange.setValue("Write your email here to receve the report");
+  //if(emaildata[0][0]='') emailrange.setValue("Write your email here to receve the report");
 
   
    titlerange.setValue("Title"); 
